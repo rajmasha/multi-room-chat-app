@@ -1,0 +1,120 @@
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+h1 {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+h2 {
+  color: rgb(53, 48, 48);
+}
+
+h2 span {
+  color: cornflowerblue;
+}
+
+#chat-display {
+  background-color: #f0f4ff;
+  height: 400px;
+  padding: 20px;
+  overflow: scroll;
+}
+
+#msg p {
+  clear: both;
+  float: left;
+  font-size: 0.9rem;
+}
+
+#msg p span {
+  color: #039be5;
+  color: cornflowerblue;
+}
+
+input {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  background: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+
+button {
+  background: cornflowerblue;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  padding: 10px;
+  margin: 0;
+}
+
+#create-room {
+  background-color: #f0f4ff;
+  color: cornflowerblue;
+  border-radius: 5px;
+  padding: 2px 6px 2px 6px;
+  cursor: pointer;
+}
+
+#sidebar {
+  background-color: cornflowerblue;
+  padding: 5px;
+}
+
+#sidebar p {
+  margin: 5px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+  height: 170px;
+  overflow: scroll;
+}
+
+ul li {
+  color: #fff;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6495ed;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #497fe6;
+}
+
+::-webkit-scrollbar-corner {
+  background: #f0f4ff;
+}
+
+#sidebar ul::-webkit-scrollbar {
+  width: 5px;
+}
+
+#sidebar ul::-webkit-scrollbar-thumb {
+  background: #f0f4ff;
+}
+
+#sidebar ul::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 197, 211);
+}
+
+#sidebar ul::-webkit-scrollbar-corner {
+  background: #6495ed;
+}
